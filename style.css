@@ -15,20 +15,20 @@ tr {
   font-size: 30px;
 }
 .blue {
-  background-color: rgba(44, 47, 191, 0.6);
+  background-color: rgba(1, 189, 216, 0.4);
 }
 .number-input {
-  background-color: rgba(236, 234, 36, 0.84);
+  background-color: rgba(236, 234, 36, 0.6);
 }
 .yellow {
-  background-color: rgba(236, 234, 36, 0.84);
+  background-color: rgba(236, 234, 36, 0.6);
 }
-.red {
-  background-color: rgba(218, 33, 33, 0.84);
+.operator {
+  background-color: rgba(200, 234, 96, 1);
 }
 #display {
   width: 400px;
   height: 60px;
   font-size: 30px;
-  background-color: rgba(43, 207, 229, 0.9);
+  background-color: rgba(43, 207, 229, 0.25);
 }

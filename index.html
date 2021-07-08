@@ -14,7 +14,7 @@
         <table>
             <tr>
                 <td colspan=4>
-                    <input id="display" type="text" Name="display">
+                    <input id="display" type="text" Name="display" onkeypress='validate(event)'>
                 </td>
             </tr>
             <tr>
@@ -25,10 +25,10 @@
                     <input id="del" class="keypad blue" type="button" value="Del">
                 </td>
                 <td>
-                    <input id="square" class="keypad red" type="button" value="SqRt">
+                    <input id="square" class="keypad operator" type="button" value="SqRt">
                 </td>
                 <td>
-                    <input id="pow" class="keypad red" type="button" value="Pow">
+                    <input id="pow" class="keypad operator" type="button" value="Pow">
                 </td>
             </tr>
             <tr>
@@ -42,7 +42,7 @@
                     <input id="three" class="keypad number-input" type="button" value="3">
                 </td>
                 <td>
-                    <input id="add" class="keypad red" type="button" value="+">
+                    <input id="add" class="keypad operator" type="button" value="+">
                 </td>
             </tr>
             <tr>
@@ -56,7 +56,7 @@
                     <input id="six" class="keypad number-input" type="button" value="6">
                 </td>
                 <td>
-                    <input id="subt" class="keypad red" type="button" value="-">
+                    <input id="subt" class="keypad operator" type="button" value="-">
                 </td>
             </tr>
             <tr>
@@ -70,7 +70,7 @@
                     <input id="nine" class="keypad number-input" type="button" value="9">
                 </td>
                 <td>
-                    <input id="mult" class="keypad red" type="button" value="x">
+                    <input id="mult" class="keypad operator" type="button" value="x">
                 </td>
             </tr>
             <tr>
@@ -84,7 +84,7 @@
                     <input id="equal" class="keypad blue" type="button" value="=">
                 </td>
                 <td>
-                    <input id="divide" class="keypad red" type="button" value="/">
+                    <input id="divide" class="keypad operator" type="button" value="/">
                 </td>
             </tr>
         </table>
