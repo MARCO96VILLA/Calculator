@@ -1,2 +1,2 @@
 ﻿# Calculator
-## Calculator basic project
+Calculator basic project
